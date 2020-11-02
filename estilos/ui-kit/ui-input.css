@@ -1,0 +1,48 @@
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=email],
+input[type=file],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=range],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+input[type=color].ui-input,
+input[type=date].ui-input,
+input[type=datetime-local].ui-input,
+input[type=email].ui-input,
+input[type=file].ui-input,
+input[type=month].ui-input,
+input[type=number].ui-input,
+input[type=password].ui-input,
+input[type=range].ui-input,
+input[type=search].ui-input,
+input[type=tel].ui-input,
+input[type=text].ui-input,
+input[type=time].ui-input,
+input[type=url].ui-input,
+input[type=week].ui-input,
+select,
+select.ui-input,
+textarea,
+textarea.ui-input,
+.ui-input,
+.sidebar li.widget_search #s{
+	font-family:"Roboto", arial, sanz-serif;
+	font-size:13px;
+	color:#999999;
+	
+	background:#fff;
+	padding:13px;
+	border:1px solid #eee;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

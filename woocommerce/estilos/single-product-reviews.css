@@ -1,0 +1,312 @@
+.woocommerce-Tabs-panel--reviews{
+	padding:0px !important;
+}
+.wc-calificaciones{
+	overflow:auto;
+	color:#666;
+}
+.wc-calificaciones a{
+	font-weight:500;
+	color:#444;
+}
+.wc-calificaciones .wc-calificaciones-contenedor{
+	overflow:auto;
+	width:70%;
+	float:left;
+}
+.wc-calificaciones .wc-calificaciones-titulo{
+	padding:20px;
+}
+.wc-calificaciones .wc-calificaciones-titulo h2{
+	margin:0px;
+}
+
+/*################ FORMULARIO DE CALIFICACIONES ################*/
+
+.wc-calificaciones .wc-calificaciones-formulario{
+	overflow:auto;
+	background:#F7F7F7;
+	padding:20px;
+}
+.wc-calificaciones .wc-calificaciones-formulario form{
+	display:block;
+	overflow:auto;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-contenedor{
+	overflow:auto;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-campos{
+	width:40%;
+	float:left;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-area-full{
+	width:100%;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-area{
+	width:calc(58% - 4px);
+	margin:auto 0px auto 2%;
+	float:left;
+}
+.wc-calificaciones .wc-calificaciones-formulario .campo{
+	background:#fff;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-campo-mensaje{
+	width:100%;
+	width:calc(100% - 28px);
+	height:80px;
+	margin-bottom:20px;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-campo-nombre,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-campo-email{
+	width:100%;
+	width:calc(100% - 28px);
+	margin-bottom:20px;
+	padding:13px;
+	
+	// width:240px;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie{
+	overflow:auto;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-leyenda{
+	display: block;
+    font-size: 11px;
+    text-align: left;
+	line-height: 120%;
+	width:38%;
+	margin:auto 2% auto 0px;
+	float:left;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-leyenda #cancel-comment-reply-link{
+	margin-top: 8px;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-leyenda .leyenda{
+	display:inline-block;
+	margin: 7px 0;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones{
+	width:60%;
+	float:left;
+	text-align:right;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .stars{
+	display: inline-block;
+	margin: 6px 20px 0px 0px;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-1,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-2,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-3,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-4,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-5{
+	background: url(../imagenes/star-off-retina.png);
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+    color: #fff;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-1:hover,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-1.active,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-2:hover,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-2.active,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-3:hover,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-3.active,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-4:hover,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-4.active,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-5:hover,
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .star-5.active{
+	background: url(../imagenes/star-on-retina.png);
+	background-size: 100%;
+}
+.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .wc-calificaciones-boton-publicar{
+	float:right;
+}
+
+/*################ LISTADO DE CALIFICACIONES ################*/
+
+.wc-calificaciones .wc-calificaciones-listado{
+	padding:0px 20px 20px;
+}
+.wc-calificaciones .wc-calificaciones-listado ul.children{
+	margin-left:20px;
+	margin-top:20px;
+	padding:0px;
+}
+.wc-calificaciones .wc-calificaciones-listado ul.children div.comentario:first-child{
+	margin-top:0px;
+}
+.wc-calificaciones .wc-calificaciones-listado ul.children div.comentario{}
+.wc-calificaciones .wc-calificaciones-listado .comentario{
+	overflow:auto;
+	font-size:13px;
+	line-height:130%;
+	margin-top:20px;
+	background:#f7f7f7;
+	
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	khtml-border-radius:2px;
+	border-radius:2px;
+}
+.wc-calificaciones .wc-calificaciones-listado .comentario:first-child{
+	margin-top:0px;
+}
+.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-imagen{
+	width:60px;
+	height:60px;
+	margin:15px;
+	float:left;
+	overflow:hidden;
+}
+.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-cuerpo{
+	margin-left:80px;
+	padding:15px;
+}
+.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-cuerpo p{
+	margin:10px 0px;
+}
+.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-cuerpo .star-rating{
+	
+	float: left;
+	width: 71px;
+    height: 20px;
+    margin-right: 10px;
+	background-image: url(../imagenes/star-off-retina.png);
+    background-repeat: repeat-x;
+    background-position: center left;
+    background-size: 14px 14px;
+    display: inline-block;
+    height: 20px;
+    font-size: 0;
+    text-align: left;
+}
+.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-cuerpo .star-rating span{
+	background-image: url(../imagenes/star-on-retina.png);
+    background-repeat: repeat-x;
+    background-position: center left;
+    background-size: 14px 14px;
+    display: block;
+    font-size: 0;
+    text-align: left;
+	height: 100%;
+}
+.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-cuerpo .star-rating span.rating{
+	background-image:none;
+    display: block;
+    font-size: 0;
+    text-align: left;
+}
+.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-cuerpo .comentario-meta{
+	margin: 3px 0px;
+}
+.wc-calificaciones .wc-calificaciones-navegacion{
+	margin-top:40px;	
+	overflow:auto;
+}
+.wc-calificaciones .wc-calificaciones-navegacion .wc-calificaciones-navegacion-izquierda{
+	float:left;
+}
+.wc-calificaciones .wc-calificaciones-navegacion .wc-calificaciones-navegacion-derecha{
+	float:right;
+}
+.wc-calificaciones .wc-calificaciones-navegacion a{
+	font-family:"Raleway", arial, sanz-serif;
+	display:inline-block;
+	text-transform:uppercase;
+	font-weight:bold;
+	border:none;
+	font-size: 12px;
+    padding:10px 25px;
+	text-align:center;
+	cursor:pointer;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	khtml-border-radius:2px;
+	border-radius:2px;
+}
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+@media all and (max-width: 920px){
+	.wc-calificaciones .wc-calificaciones-contenedor{
+		width:98%;
+		overflow:visible;
+	}
+}
+@media all and (max-width: 768px){
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-campos,
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-area{
+		width:calc(100% - 4px);
+		margin:0px;
+		float:none;
+	}
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-leyenda,
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones{
+		width:100%;
+	}
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-leyenda{
+		margin:0px;
+	}
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-leyenda .leyenda{
+		display:block;
+		margin-bottom:10px;
+	}
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones{
+		text-align:center;
+	}
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-formulario-pie .wc-calificaciones-acciones .stars{
+		margin:0px;
+	}
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-boton-publicar{
+		margin-top:20px;
+		width:100%;
+		float:right;
+	}	
+	.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-imagen{
+		display:none;
+	}
+	.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-cuerpo{
+		margin-left:0px;
+		padding:10px;
+	}
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-leyenda #cancel-comment-reply-link,
+	.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-pie a{
+		display:block;
+		text-align:center;
+		padding:10px;
+		margin:10px 0px 0px;
+	}
+	.wc-calificaciones .wc-calificaciones-formulario .wc-calificaciones-leyenda #cancel-comment-reply-link,
+	.wc-calificaciones .wc-calificaciones-listado .comentario .comentario-pie a:first-child{
+		margin-top:0px;
+	}
+	.wc-calificaciones .wc-calificaciones-navegacion a{
+		width:100%;
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.wc-calificaciones .wc-calificaciones-navegacion .wc-calificaciones-navegacion-izquierda,
+	.wc-calificaciones .wc-calificaciones-navegacion .wc-calificaciones-navegacion-derecha{
+		float:none;
+	}
+	.wc-calificaciones .wc-calificaciones-navegacion .alignleft,
+	.wc-calificaciones .wc-calificaciones-navegacion .alignright{
+		float:none;
+	}
+}
+
+@media all and (max-width: 480px){
+
+}

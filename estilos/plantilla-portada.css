@@ -1,0 +1,78 @@
+.portada{
+	
+}
+.portada .portada-contenido{
+	padding:50px 20px;
+}
+.portada .portada-contenido .portada-procesos{
+	margin:0px 0px 50px;
+}
+.portada .portada-contenido .portada-categorias{
+	margin:50px 0px 0px;
+}
+.portada .portada-contenido .portada-productos{
+	padding:20px 0px;
+}
+.portada .portada-contenido .portada-productos .ui-title{
+	margin-bottom:50px;
+}
+.portada .portada-contenido .portada-productos .wc-products{
+	display:flex;
+	flex-wrap:wrap;
+}
+.portada .portada-contenido .portada-productos .wc-products .wc-product{
+	width:calc(25% - 15px);
+	margin:20px 0px 0px 20px;
+}
+.portada .portada-contenido .portada-productos .wc-products .wc-product:nth-child(4n+1){
+	margin-left:0px;
+}
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 900px){	
+	.portada .portada-contenido .portada-productos .wc-products .wc-product{
+		width:calc(33.33% - 14px);
+	}
+	.portada .portada-contenido .portada-productos .wc-products .wc-product:nth-child(4n+1){
+		margin-left:20px;
+	}
+	.portada .portada-contenido .portada-productos .wc-products .wc-product:nth-child(3n+1){
+		margin-left:0px;
+	}
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 700px){	
+
+}
+
+@media all and (max-width: 600px){	
+	.portada .portada-contenido .portada-productos .wc-products .wc-product{
+		width:calc(50% - 10px);
+	}
+	.portada .portada-contenido .portada-productos .wc-products .wc-product:nth-child(4n+1),
+	.portada .portada-contenido .portada-productos .wc-products .wc-product:nth-child(3n+1){
+		margin-left:20px;
+	}
+	.portada .portada-contenido .portada-productos .wc-products .wc-product:nth-child(2n+1){
+		margin-left:0px;
+	}
+}
+
+@media all and (max-width: 480px){
+	.portada .portada-contenido .portada-productos .wc-products .wc-product{
+		width:100%;
+		margin-left:0px;
+	}
+	.portada .portada-contenido .portada-productos .wc-products .wc-product:nth-child(4n+1),
+	.portada .portada-contenido .portada-productos .wc-products .wc-product:nth-child(2n+1),
+	.portada .portada-contenido .portada-productos .wc-products .wc-product:nth-child(3n+1){
+		margin-left:0px;
+	}
+}

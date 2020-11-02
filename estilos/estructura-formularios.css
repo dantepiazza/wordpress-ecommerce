@@ -1,0 +1,130 @@
+input[type=color], input[type=date], input[type=datetime-local], input[type=email],
+input[type=file], input[type=month], input[type=number], input[type=password],
+input[type=range], input[type=search], input[type=tel], input[type=text],
+input[type=time], input[type=url], input[type=week],
+input[type=color].campo, input[type=date].campo, input[type=datetime-local].campo, input[type=email].campo,
+input[type=file].campo, input[type=month].campo, input[type=number].campo, input[type=password].campo,
+input[type=range].campo, input[type=search].campo, input[type=tel].campo, input[type=text].campo,
+input[type=time].campo, input[type=url].campo, input[type=week].campo,
+select, select.campo,
+textarea, textarea.campo,
+.campo,
+.sidebar li.widget_search #s{
+	font-family:"Roboto", arial, sanz-serif;
+	font-size:13px;
+	color:#999999;
+	
+	background:#fff;
+	padding:13px;
+	border:1px solid #eee;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+button, button.boton,
+input[type=button], input[type=button].boton,
+input[type=submit], input[type=submit].boton,
+.boton, a.boton,
+.page-numbers,
+.sidebar li.widget_search #searchsubmit{
+	font-family:"Roboto", arial, sanz-serif;
+	font-size:14px;
+	font-weight:500;
+	text-align:center;
+	text-transform:uppercase;
+	
+	background:var(--color-principal);
+	color:var(--color-principal-contraste);
+	padding:13px 30px;
+	border:0px;
+	
+	cursor:pointer;
+	line-height:100%;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	khtml-border-radius:2px;
+	border-radius:2px;
+}
+a.boton{
+	display:inline-block;
+}
+button:hover, button.boton:hover,
+input[type=button]:hover, input[type=button].boton:hover,
+input[type=submit]:hover, input[type=submit].boton:hover,
+.boton:hover, a:hover.boton,
+.page-numbers:hover,
+.sidebar li.widget_search #searchsubmit:hover,
+.sweet-alert button:hover,
+.sweet-alert button:active{
+	background:var(--color-secundario);
+	color:var(--color-secundario-contraste);
+}
+
+/*################ SWEETALERT ################*/
+
+.sweet-alert input{
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-bottom: 17px;
+	display: none;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.sweet-alert input:focus{
+	outline: none;
+	box-shadow: 0px 0px 3px #c4e6f5;
+	border: 1px solid #b4dbed;
+}
+.sweet-alert button{
+	margin: 26px 5px 0 5px;
+	background-color:#00CCCC !important;
+}
+.sweet-alert button:focus{
+	outline: none;
+	box-shadow: 0 0 2px rgba(128, 179, 235, 0.5), inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+.sweet-alert button:hover{
+	background-color:#333333 !important;
+}
+.sweet-alert button:active{
+	background-color:#333333 !important;
+}
+.sweet-alert button.cancel{
+	background-color: #C1C1C1;
+}
+.sweet-alert button.cancel:hover{
+	background-color: #b9b9b9;
+}
+.sweet-alert button.cancel:active{
+	background-color: #a8a8a8;
+}
+.sweet-alert button.cancel:focus{
+	box-shadow: rgba(197, 205, 211, 0.8) 0px 0px 2px, rgba(0, 0, 0, 0.0470588) 0px 0px 0px 1px inset !important;
+}
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 768px){	
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	
+}
+
+@media all and (max-width: 480px){
+	
+}

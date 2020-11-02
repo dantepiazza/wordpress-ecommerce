@@ -1,0 +1,35 @@
+#misc-publishing-actions{
+	
+}
+#misc-publishing-actions label{
+	display:block;
+}
+.users-roles-input{
+	width:100%;
+}
+#misc-publishing-actions label#users-roles-nuevo{
+	display:none;
+}
+#namediv input[type="checkbox"]{
+	width: auto !important;
+}
+#users-roles-capas ul{
+	-webkit-column-count: 3 !important;
+       -moz-column-count: 3 !important;
+            column-count: 3 !important;
+}
+#users-roles-capas ul li{
+	margin-bottom:3px;
+	font-size: 12px;
+}
+#users-roles-capas ul li label{
+	display:block;
+	background:#f5f5f5;
+    margin-bottom:3px;
+    padding:7px;
+	border-left: 4px solid #ccc;
+}
+#users-roles-capas ul li.activo label{
+	background:#f7fcfe;
+	border-left: 4px solid #00a0d2;
+}

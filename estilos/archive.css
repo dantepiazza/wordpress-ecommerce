@@ -1,0 +1,72 @@
+.articulos{
+	
+}
+.articulos .articulos-encabezado{
+	background:#f0f0f0;
+	color:#fff;
+	padding:0px 20px;
+	text-align:center;
+}
+.articulos .articulos-encabezado h1{
+	color:#fff;
+	margin:40px 0px;
+	line-height: 100%;
+	display:inline-block;
+	color:#000;
+}
+.articulos .articulos-listado{
+	
+}
+.articulos .articulos-listado{
+	padding:80px 20px;
+}
+.articulos .articulos-listado h1{
+	text-align:center;
+	margin-bottom:60px;
+}
+.articulos .articulos-listado .contenedor{
+	overflow:visible;
+}
+.articulos .articulos-listado .articulos-contenedor{
+	overflow:visible;
+	display:flex;
+	flex-wrap:wrap;
+}
+.articulos .articulos-listado .articulos-navegacion{
+	margin-top:50px;
+	clear:both;
+	text-align:center;
+}
+.articulos .articulos-listado .articulos-navegacion .page-numbers{
+	color:#666;
+	margin:0px 5px;
+	padding:12px 18px;
+	background:#f0f0f0;
+	display:inline-block;
+}
+.articulos .articulos-listado .articulos-navegacion a:hover.page-numbers,
+.articulos .articulos-listado .articulos-navegacion .page-numbers.current{
+	color:#fff;
+	background:#000000;
+}
+
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 768px){	
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	
+}
+
+@media all and (max-width: 480px){
+	
+}

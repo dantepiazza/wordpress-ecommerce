@@ -1,0 +1,147 @@
+.contacto{
+
+}
+.contacto .contacto-encabezado{
+	
+}
+.contacto .contacto-encabezado h1{
+	
+}
+.contacto .contacto-contenido{
+	padding:100px 20px;
+}
+.contacto .contacto-contenido .contenedor{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+.contacto .contacto-informacion{
+	width:50%;
+}
+.contacto .contacto-informacion .contacto-medios{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.contacto .contacto-informacion .contacto-medios .contacto-medio{
+	width:50%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+    align-items: center;
+	margin:15px 0px;
+}
+.contacto .contacto-informacion .contacto-medios .contacto-medio i{
+	font-size:45px;
+	color:var(--color-principal);
+	text-align:center;
+	width:40px;
+}
+.contacto .contacto-informacion .contacto-medios .contacto-medio p{
+	width:calc(100% - 55px);
+	font-size:13px;
+	display:block;
+	line-height: 120%;
+}
+.contacto .contacto-formulario{
+	width:50%;
+}
+.contacto .contacto-formulario form{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.contacto .contacto-formulario-izquiedo,
+.contacto .contacto-formulario-derecho{
+	width:calc(50% - 10px);
+}
+.contacto .contacto-formulario .campo-nombre{
+	width:100%;
+	margin-bottom:15px;
+}
+.contacto .contacto-formulario .campo-telefono{
+	width:100%;
+	margin-bottom:15px;
+}
+.contacto .contacto-formulario .campo-email{
+	width:calc(100% - 35px);
+}
+.contacto .contacto-formulario .campo-mensaje{
+	width:100%;
+	height:85px;
+}
+.contacto .contacto-formulario .boton-contactar{
+	float:right;
+	margin-top:5px;
+}
+.contacto .contacto-mapa{
+	height:450px;
+	overflow:hidden;
+	position:relative;
+}
+.contacto .contacto-mapa div{
+	transition:none;
+}
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 768px){	
+	.contacto .contacto-formulario{
+		width:100%;
+	}
+	.contacto .contacto-informacion{
+		width:100%;
+		margin-bottom:50px;
+	}
+	.contacto .contacto-informacion .contacto-medios .contacto-medio{
+		text-align:center;
+		margin:20px 0px;
+		width:25%;
+	}
+	.contacto .contacto-informacion .contacto-medios .contacto-medio i{
+		width:100%;
+		margin-bottom:20px;
+	}
+	.contacto .contacto-informacion .contacto-medios .contacto-medio p{
+		width:100%;
+		margin:0px;
+	}
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){	
+	.contacto .contacto-formulario-izquiedo,
+	.contacto .contacto-formulario-derecho{
+		width:100%;
+	}
+	.contacto .contacto-formulario .campo-nombre,
+	.contacto .contacto-formulario .campo-telefono,
+	.contacto .contacto-formulario .campo-email,
+	.contacto .contacto-formulario .campo-mensaje{
+		margin-bottom:15px;
+	}
+	.contacto .contacto-formulario .boton-contactar{
+		width:100%;
+		margin-top:0px;
+	}
+	.contacto .contacto-informacion .contacto-medios .contacto-medio{
+		width:50%;
+	}
+}
+
+@media all and (max-width: 480px){
+	.contacto .contacto-informacion .contacto-medios .contacto-medio{
+		width:100%;
+		margin:30px 0px 0px;
+	}
+	.contacto .contacto-informacion .contacto-medios .contacto-medio:first-child{
+		margin-top:0px;
+		margin-bottom:0px;
+	}
+}

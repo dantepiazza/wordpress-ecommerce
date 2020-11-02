@@ -1,0 +1,263 @@
+.comentarios{
+	overflow:auto;
+	padding:50px 20px;
+	color:#666;
+	background:#f0f0f0;
+}
+.comentarios a{
+	font-weight:500;
+	color:#444;
+}
+.comentarios .comentarios-contenedor{
+	overflow:auto;
+	width:70%;
+	float:left;
+}
+.comentarios .comentarios-titulo{
+	margin-bottom:20px;
+}
+.comentarios .comentarios-titulo h5{
+	margin:0px;
+}
+
+/*################ FORMULARIO DE COMENTARIOS ################*/
+
+.comentarios .comentarios-formulario{
+	margin-bottom:40px;	
+	overflow:auto;
+}
+.comentarios .comentarios-formulario form{
+	display:block;
+	overflow:auto;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-contenedor{
+	overflow:auto;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-campos{
+	width:40%;
+	float:left;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-area-full{
+	width:100%;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-area{
+	width:58%;
+	margin:auto 0px auto 2%;
+	float:left;
+}
+.comentarios .comentarios-formulario .campo{
+	background:#fff;
+}
+.comentarios .comentarios-formulario .comentarios-campo-mensaje{
+	width:100%;
+	height:80px;
+	margin-bottom:20px;
+}
+.comentarios .comentarios-formulario  .comentarios-campo-nombre,
+.comentarios .comentarios-formulario .comentarios-campo-email{
+	width:100%;
+	margin-bottom:20px;
+	padding:13px;
+	
+	// width:240px;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-pie{
+	overflow:auto;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-pie .comentarios-leyenda{
+	display: block;
+    font-size: 11px;
+    text-align: left;
+	line-height: 120%;
+	width:68%;
+	margin:auto 2% auto 0px;
+	float:left;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-pie .comentarios-leyenda #cancel-comment-reply-link{
+	margin-top: 8px;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-pie .comentarios-leyenda .leyenda{
+	display:inline-block;
+	margin: 7px 0;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-pie .comentarios-acciones{
+	width:30%;
+	float:left;
+}
+.comentarios .comentarios-formulario .comentarios-formulario-pie .comentarios-acciones .comentarios-boton-publicar{
+	float:right;
+}
+
+/*################ LISTADO DE COMENTARIOS ################*/
+
+.comentarios .comentarios-listado{
+
+}
+.comentarios .comentarios-listado ul.children{
+	margin-left:20px;
+	margin-top:20px;
+	padding:0px;
+}
+.comentarios .comentarios-listado ul.children div.comentario:first-child{
+	margin-top:0px;
+}
+.comentarios .comentarios-listado ul.children div.comentario{}
+.comentarios .comentarios-listado .comentario{
+	overflow:auto;
+	font-size:13px;
+	line-height:130%;
+	margin-top:20px;
+	background:#fff;
+	
+	//border: 1px solid #D9D9D9;
+	
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	khtml-border-radius:2px;
+	border-radius:2px;
+}
+.comentarios .comentarios-listado .comentario:first-child{
+	margin-top:0px;
+}
+.comentarios .comentarios-listado .comentario .comentario-imagen{
+	width:80px;
+	height:80px;
+	margin:15px;
+	float:left;
+	overflow:hidden;
+}
+.comentarios .comentarios-listado .comentario .comentario-cuerpo{
+	margin-left:100px;
+	padding:15px;
+}
+.comentarios .comentarios-listado .comentario .comentario-cuerpo p{
+	margin:10px 0px;
+}
+.comentarios .comentarios-listado .comentario .comentario-pie{
+	
+}
+.comentarios .comentarios-formulario .comentarios-leyenda #cancel-comment-reply-link,
+.comentarios .comentarios-listado .comentario .comentario-pie a{
+	font-family:"Raleway", arial, sanz-serif;
+	font-size:10px;
+	text-transform:uppercase;
+	color:#666;
+	line-height: 100%;
+	
+	background:#dddddd;
+	padding:5px 8px;
+	margin-right:10px;	
+	display:inline-block;
+	
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	khtml-border-radius:2px;
+	border-radius:2px;
+}
+.comentarios .comentarios-formulario .comentarios-leyenda #cancel-comment-reply-link:hover,
+.comentarios .comentarios-listado .comentario .comentario-pie a:hover{
+	color:#666;
+	background:#d0d0d0;	
+}
+.comentarios .comentarios-navegacion{
+	margin-top:40px;	
+	overflow:auto;
+}
+.comentarios .comentarios-navegacion .comentarios-navegacion-izquierda{
+	float:left;
+}
+.comentarios .comentarios-navegacion .comentarios-navegacion-derecha{
+	float:right;
+}
+.comentarios .comentarios-navegacion a{
+	font-family:"Raleway", arial, sanz-serif;
+	display:inline-block;
+	text-transform:uppercase;
+	font-weight:bold;
+	border:none;
+	font-size: 12px;
+    padding:10px 25px;
+	text-align:center;
+	cursor:pointer;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	khtml-border-radius:2px;
+	border-radius:2px;
+}
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+@media all and (max-width: 920px){
+	.comentarios .comentarios-contenedor{
+		width:98%;
+		overflow:visible;
+	}
+}
+@media all and (max-width: 768px){
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	.comentarios .comentarios-formulario .comentarios-formulario-campos,
+	.comentarios .comentarios-formulario .comentarios-formulario-area{
+		width:100%;
+		margin:0px;
+		float:none;
+	}
+	.comentarios .comentarios-formulario .comentarios-formulario-pie .comentarios-leyenda,
+	.comentarios .comentarios-formulario .comentarios-formulario-pie .comentarios-acciones{
+		width:100%;
+	}
+	.comentarios .comentarios-formulario .comentarios-formulario-pie .comentarios-leyenda{
+		margin:0px;
+	}
+	.comentarios .comentarios-formulario .comentarios-formulario-pie .comentarios-leyenda .leyenda{
+		display:block;
+		margin-bottom:10px;
+	}
+	.comentarios .comentarios-formulario .comentarios-boton-publicar{
+		margin-top:20px;
+		width:100%;
+		float:right;
+	}	
+	.comentarios .comentarios-listado .comentario .comentario-imagen{
+		display:none;
+	}
+	.comentarios .comentarios-listado .comentario .comentario-cuerpo{
+		margin-left:0px;
+		padding:10px;
+	}
+	.comentarios .comentarios-formulario .comentarios-leyenda #cancel-comment-reply-link,
+	.comentarios .comentarios-listado .comentario .comentario-pie a{
+		display:block;
+		text-align:center;
+		padding:10px;
+		margin:10px 0px 0px;
+	}
+	.comentarios .comentarios-formulario .comentarios-leyenda #cancel-comment-reply-link,
+	.comentarios .comentarios-listado .comentario .comentario-pie a:first-child{
+		margin-top:0px;
+	}
+	.comentarios .comentarios-navegacion a{
+		width:100%;
+		padding-left:0px;
+		padding-right:0px;
+	}
+	.comentarios .comentarios-navegacion .comentarios-navegacion-izquierda,
+	.comentarios .comentarios-navegacion .comentarios-navegacion-derecha{
+		float:none;
+	}
+	.comentarios .comentarios-navegacion .alignleft,
+	.comentarios .comentarios-navegacion .alignright{
+		float:none;
+	}
+}
+
+@media all and (max-width: 480px){
+
+}

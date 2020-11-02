@@ -1,0 +1,197 @@
+.wc-cart-empty{
+	padding:80px 20px;
+	overflow: auto;
+	text-align:center;
+}
+.wc-cart-empty i{
+	color:#BBBBBB;
+    font-size:200px;
+    margin:0px 0px 20px;
+}
+.wc-cart-empty h1{
+    font-weight: 400;
+    margin:0px 0px 15px;
+}
+.wc-cart-empty h5{
+	font-size:16px;
+	font-weight:300;
+	margin:0px 0px 20px;
+}
+.wc-cart-empty .boton{
+	display: inline-block;
+}
+
+
+.wc-carrito{
+	border:none !important;
+}
+.wc-carrito .wc-carrito-fila{
+	
+}
+.wc-carrito .wc-carrito-fila:nth-child(2n){
+	background:none !important;
+}
+.wc-carrito .wc-carrito-fila td{
+	padding:10px !important;
+	border-top:none !important;
+}
+.wc-carrito .wc-carrito-fila .coupon .campo{
+	width:150px !important;
+	margin-right:15px;
+}
+.wc-carrito .wc-carrito-fila.wc-carrito-fila-encabezado{
+	
+}
+.woocommerce table.shop_table th{
+	padding:12px 12px !important;
+}
+.wc-carrito .wc-carrito-fila.wc-carrito-fila-acciones{
+	background:#f7f7f7;
+}
+.wc-carrito .wc-carrito-fila.wc-carrito-fila-acciones .ui-input{
+	padding: 9px 13px;
+    min-width: 170px;
+}
+.wc-carrito .wc-carrito-fila.wc-carrito-fila-acciones .ui-button{
+	padding: 10px 20px;
+    background: #DDD;
+    color: #777;
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna{
+	
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-imagen{
+	width: 80px;
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-imagen a{
+	display: block;
+    border: 1px solid #eee;
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-nombre{
+	width:calc(75% - 100px);
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-nombre h5{
+	font-size:14px;
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-precio{
+	width:10%;
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-cantidad{
+	width:10%;
+}
+.woocommerce .quantity .qty {
+    width: 60px !important;
+    text-align: left !important;
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-subtotal{
+	width:10%;
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-eliminar{
+	width:5%;
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-eliminar a.remove{
+	color:#666 !important;
+}
+.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-eliminar a:hover.remove{
+	background:#E0E0E0 !important;
+}
+
+.cross-sells{
+	margin-bottom:20px;
+}
+.cross-sells .titulado{
+	font-size:18px;
+}
+.cross-sells .wc-products{
+	width:100%;
+	margin:0px;
+}
+.cross-sells .wc-products .wc-product{
+	width:calc(33% - 20px);
+	margin:20px 0px 0px 20px;
+}
+.cross-sells .wc-products .wc-product .product-title{
+	font-size:14px;
+}
+.cross-sells .wc-products .wc-product .product-description{
+	display:none;
+}
+.cross-sells .wc-products .wc-product:nth-child(3n+1){
+	margin-left:0px;
+}
+
+.cart-collaterals .shop_table{
+	border:none !important;
+}
+.cart-collaterals .boton{
+	display:inline-block;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;  
+}
+
+.woocommerce .cart-collaterals .cart_totals table{
+	
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt{
+	
+}
+				
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 900px){
+	
+}
+
+@media all and (max-width: 768px){	
+	.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-eliminar,
+	.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-imagen,	
+	.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-nombre,
+	.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-precio,
+	.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-cantidad,
+	.wc-carrito .wc-carrito-fila .wc-carrito-columna.columna-subtotal{
+		width:calc(100% - 20px);
+	}
+	.wc-carrito .wc-carrito-fila-acciones .coupon{
+		float:left !important;
+	}
+	.wc-carrito .wc-carrito-fila-acciones .boton{
+		width:auto !important;
+	}
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 700px){	
+
+}
+
+@media all and (max-width: 600px){
+	.wc-carrito .wc-carrito-fila-acciones .coupon{
+		width:100% !important;
+		margin-bottom:15px;
+		float:none;
+	}
+	.wc-carrito .wc-carrito-fila-acciones .coupon .campo{
+		width:100% !important;
+		margin:0px 0px 15px 0px;
+	}
+	.wc-carrito .wc-carrito-fila-acciones .boton{
+		width:100% !important;
+	}
+	.cross-sells .wc-products .wc-product{
+		width:calc(100% - 4px);
+		margin:20px 0px 0px 0px;
+	}
+}
+
+@media all and (max-width: 480px){
+	
+}

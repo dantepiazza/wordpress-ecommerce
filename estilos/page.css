@@ -1,0 +1,39 @@
+.pagina{
+
+}
+.pagina .pagina-encabezado{
+	
+}
+.pagina .pagina-encabezado h1{
+	
+}
+.pagina .pagina-cuerpo{
+	padding:40px 20px;
+}
+.pagina .pagina-cuerpo .contenedor{
+	overflow:visible;
+}
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 768px){	
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 700px){	
+
+}
+
+@media all and (max-width: 600px){
+	
+}
+
+@media all and (max-width: 480px){
+	
+}

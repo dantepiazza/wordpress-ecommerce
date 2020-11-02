@@ -1,0 +1,195 @@
+.estructura-encabezado{
+	background-color:var(--color-principal);
+	padding:25px 20px;
+	position:relative;
+}
+.estructura-encabezado:before,
+.estructura-encabezado:after{
+	content: '';
+	background: url(../imagenes/encabezado-contenido-divisor.png);
+    height: 30px;
+    width: calc(calc(100% - 1240px) / 2);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.estructura-encabezado:before{
+	left: 0;
+}
+.estructura-encabezado:after{
+	right: 0;
+}
+.estructura-encabezado h1{
+	color:var(--color-principal-contraste);
+	font-size:25px;
+	font-weight:400;
+	margin:0px;
+}
+
+.estructura-contenido{
+	line-height: 150%;
+}
+.estructura-contenido h1,
+.estructura-contenido h2,
+.estructura-contenido h3,
+.estructura-contenido h4,
+.estructura-contenido h5,
+.estructura-contenido h6{
+	margin:35px 0px 10px 0px;
+}
+.estructura-contenido h1:first-child,
+.estructura-contenido h2:first-child,
+.estructura-contenido h3:first-child,
+.estructura-contenido h4:first-child,
+.estructura-contenido h5:first-child,
+.estructura-contenido h6:first-child{
+	margin-top:0px;
+}
+.estructura-contenido p{
+	margin:0px 0px 15px 0px;
+}
+.estructura-contenido blockquote{
+	margin:30px 40px;
+	padding-left:20px;
+	border-left:4px solid #E2E2E2;
+	color:#AAAAAA;
+	font-style:italic;
+}
+.estructura-contenido cite{
+	font-style:italyc;
+}
+.estructura-contenido img{
+	-moz-border-radius:2px 2px 2px 2px;
+	-webkit-border-radius:2px 2px 2px 2px;
+	khtml-border-radius:2px 2px 2px 2px;
+	border-radius:2px 2px 2px 2px;
+	overflow:hidden;
+}
+.estructura-contenido img.alignleft{
+	margin:0px 20px 20px 0px;
+}
+.estructura-contenido img.alignright{
+	margin:0px 0px 20px 20px;
+}
+.estructura-contenido img.aligncenter{
+	margin:0px auto 20px;
+}
+.estructura-contenido ul{
+	margin:20px 0px 20px 40px;
+	padding:0px;
+}
+.estructura-contenido ul li > ul{
+	margin:5px 0px 5px 40px;
+	padding:0px;
+}
+.estructura-contenido ol{
+	margin:20px 0px 20px 40px;
+	padding:0px;
+}
+.estructura-contenido ol li > ol{
+	margin:5px 0px 5px 40px;
+	padding:0px;
+}
+.estructura-contenido ul li, 
+.estructura-contenido ol li{
+	margin-bottom:5px;
+}
+.estructura-contenido dl{
+}
+.estructura-contenido dl dt{
+	font-weight:bold;
+}
+.estructura-contenido dl dd{
+	margin-left:20px;
+	margin-bottom:10px;
+}
+.estructura-contenido address{
+	color:#666;
+	margin:10px 0px;
+}
+.estructura-contenido code{
+	background:#f4f4f4;
+	padding: 3px 6px;
+}
+.estructura-contenido pre{
+	overflow-x:auto;
+	overflow-y:auto;
+	background:#f4f4f4;
+	border:1px solid #e4e4e4;
+	padding:15px;
+}
+.estructura-contenido hr{
+	background:#f0f0f0;
+	border:none;
+    height: 2px;
+}
+.estructura-contenido del{
+	color:#666;
+}
+.estructura-contenido table{
+	width:100%;
+	color:#666;
+	font-size: 13px;
+	margin:15px 0px;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+.estructura-contenido table thead, 
+.estructura-contenido table tfoot{
+	background: transparent;
+	font-size: 13px;
+	font-weight:400;
+	color:#666;
+	text-align:left;
+}
+.estructura-contenido table thead tr, 
+.estructura-contenido table tfoot tr{
+	border:0px;
+}
+.estructura-contenido table thead tr th, 
+.estructura-contenido table tfoot tr th{
+	padding:12px 12px;
+}
+.estructura-contenido table tbody{
+	background:#fff;
+}
+.estructura-contenido table tbody tr{
+	background:#fff;
+	border-top:1px solid #eee;
+}
+.estructura-contenido table tbody tr:first-child{
+	border-top:none;
+}
+.estructura-contenido table tbody tr td{
+	padding:12px 12px;
+}
+
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 768px){	
+	.estructura-contenido blockquote{
+		margin:10px 20px;
+	}
+	.estructura-contenido table thead tr th, 
+	.estructura-contenido table tfoot tr th{
+		padding:14px;
+	}
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	.estructura-contenido img{
+		width:100%;
+		height:auto;
+	}	
+}
+
+@media all and (max-width: 480px){
+	
+}

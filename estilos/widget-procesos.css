@@ -1,0 +1,84 @@
+.widget-procesos{
+	color:#989898;
+	font-size:13px;
+	background:#fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	padding:0px 10px;
+}
+.widget-procesos ul{
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	justify-content:space-between;
+	list-style:none;
+}
+.widget-procesos ul li{
+	width:25%;
+	padding:20px 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.widget-procesos ul li i{
+	font-size: 25px;
+    border: 1px solid #eee;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: var(--color-principal);
+    justify-content: center;
+	margin-right:10px;
+}
+.widget-procesos ul li p{
+	width:calc(100% - 60px);
+}
+.widget-procesos ul li strong{
+	font-size: 15px;
+    font-weight: 400;
+	color:#4c4c4c;
+}
+.widget-procesos ul li span{
+	display:block;
+	color:var(--color-enlaces);
+	width:calc(100% - 60px);
+}
+
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 950px){
+	.widget-procesos ul li{
+		width:50%;
+	}
+}
+
+@media all and (max-width: 768px){	
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	
+}
+
+@media all and (max-width: 480px){	
+	.widget-procesos ul li{
+		width:100%;
+	}
+}

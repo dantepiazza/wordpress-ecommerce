@@ -1,0 +1,143 @@
+.articulo{
+	
+}
+.articulo .articulo-encabezado{
+	background:#222222;
+	background-size:cover;
+	background-position:center;
+	
+	position:relative;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.articulo .articulo-encabezado .articulo-encabezado-defecto{
+	padding:400px 20px 100px;
+	
+	background: rgba(0,0,0,0.85);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.2) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.85)), color-stop(30%, rgba(0,0,0,0.4)), color-stop(100%, rgba(0,0,0,0.2)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.2) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.2) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.2) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.2) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+.articulo .articulo-encabezado .categorias{
+	
+}
+.articulo .articulo-encabezado .categorias a{
+	font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 12px;
+    background: var(--color-principal);
+    display: inline-block;
+	padding: 8px 10px;
+}
+.articulo .articulo-encabezado h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 100%;
+	max-width:650px;
+	margin:20px 0px 30px;
+}
+.articulo .articulo-encabezado small{
+	display:block;
+	font-size:14px;
+	color:#fff;
+}
+
+/*############## ARTICULO CONTENIDO ##############*/
+
+.articulo .articulo-cuerpo{
+	padding:100px 30px;
+	background:#fff;
+}
+.articulo .articulo-cuerpo .contenedor{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row-reverse;
+	justify-content:space-between;
+	align-items:start;
+	overflow: visible;
+}
+.articulo .articulo-cuerpo .articulo-contenido{
+	width:calc(100% - 145px);
+	margin:0px 0px 0px 100px;
+	padding:0px;
+	
+	font-size:18px;
+	font-weight:300;
+	line-height:180%;
+	color:#333333;
+}
+.articulo .articulo-cuerpo .articulo-sidebar{
+	width:45px;
+}
+
+/*############## ARTICULO COMPARTIR ##############*/
+
+.articulo .articulo-compartir{	
+	
+}
+.articulo .articulo-compartir ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.articulo .articulo-compartir ul li{
+	margin:0px;
+	background:none;
+}
+.articulo .articulo-compartir ul li a{
+	color: #ccc;
+    display: block;
+    font-size: 30px;
+    padding: 8px 0px;
+    text-align: center;
+}
+.articulo .articulo-compartir ul li a:hover{
+	color: #333;
+}
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 920px){
+	
+}
+
+@media all and (max-width: 768px){	
+	.articulo .articulo-cuerpo .articulo-contenido{
+		width:100%;
+		margin:0px 0px 50px 0px;
+	}
+	.articulo .articulo-cuerpo .articulo-sidebar{
+		width:100%;
+	}
+	.articulo .articulo-compartir ul li{
+		display:inline-block;
+	}
+	.articulo .articulo-compartir ul li a{
+		padding: 0px 8px;
+	}
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	.articulo img{
+		width:100%;
+		height:auto;
+	}
+}
+
+@media all and (max-width: 480px){
+	
+}

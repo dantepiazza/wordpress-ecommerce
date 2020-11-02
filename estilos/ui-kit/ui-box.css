@@ -1,0 +1,30 @@
+.ui-box{
+	background:#fff;
+	margin-bottom:20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+.ui-box .ui-box-header{
+	padding:30px 30px 0px;
+	width:100%;
+}
+.ui-box .ui-box-header h3{
+	font-size: 16px;
+    margin: 0px;
+}
+.ui-box .ui-box-content{
+	padding:30px;
+	width:100%;
+}
+.ui-box .ui-box-content.no-padding{	
+	padding:30px 0px 0px !important;
+}
+.ui-box .ui-box-footer{
+	padding:0px 30px 30px;
+	width:100%;
+	text-align:right;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}

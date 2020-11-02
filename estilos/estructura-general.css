@@ -1,0 +1,153 @@
+html, body{
+	margin:0px;
+	padding:0px;
+	font-family:"Roboto", arial, sanz-serif;
+	color:#192633;
+	font-size:14px;
+	line-height:150%;
+	font-weight:300;
+	background:#f7f7f7;
+	
+	--color-principal:#04579B;
+	--color-secundario:#fff;
+	
+	--color-principal-contraste:#2090CB;
+	--color-secundario-contraste:#fff;
+	
+	--color-enlaces:#2090CB;
+}
+div, a{
+	transition:.2s all ease-in;
+}
+a, a:link, a:visited {
+	text-decoration:none;
+	cursor:pointer;
+	outline:0;
+	color:#000000;
+}
+a:hover, a:active, a.active {
+	text-decoration:none;
+	color:#333333;
+}
+h1, h2, h3, h4, h5, h6{
+	margin:0px 0px 30px 0px;
+	font-weight:500;
+	font-family:"Montserrat", "Roboto", arial, sanz-serif;
+	line-height:120%;
+	color:#4c4c4c;
+}
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong{
+	font-weight:900;
+}
+h1{
+	font-size:30px;
+}
+h2{
+	font-size:28px;
+}
+h3{
+	font-size:24px;
+}
+h4{
+	font-size:22px;
+}
+h5{
+	font-size:18px;
+}
+h6{
+	font-size:16px;
+}
+small{
+	font-size:12px;
+}
+.alignleft{
+	float:left;
+}
+.alignright{
+	float:right;
+}
+.aligncenter{
+	display: block;
+	margin: 0 auto;
+}
+.aligncontainer{
+	overflow:auto;
+}
+.contenedor{
+	max-width:1200px;
+	width:100%;
+	margin:auto;
+	overflow:auto;
+}
+.scrollup{
+	padding:10px;
+	max-height:50px;
+	max-width:50px;
+	font-size:30px !important;
+	display:none;
+	text-align:center;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+	
+	background:#00CCCC;
+	color:#fff;	
+}
+.scrollup .fa{
+	height:30px;
+	width:30px;
+	line-height: 85%;
+	color:#fff;	
+}
+
+.botonera-whatsapp{
+	padding: 10px;
+	max-height:50px;
+	max-width:50px;
+	font-size:30px !important;
+	text-align:center;
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	z-index: 4;
+	-moz-border-radius:100% !important;
+	-webkit-border-radius:100% !important;
+	khtml-border-radius:100% !important;
+	border-radius:100% !important;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+	
+	background:#1ebea5 !important;
+	color:#fff !important;	
+}
+.botonera-whatsapp i{
+	height: 35px;
+    width: 35px;
+    line-height: 85%;
+    font-size: 40px;
+}
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 768px){	
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	
+}
+
+@media all and (max-width: 480px){
+	
+}

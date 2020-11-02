@@ -1,0 +1,225 @@
+.sidebar{
+	
+}
+.sidebar li{
+	background:#333333;
+	margin:20px 0px 10px;
+	list-style:none;
+	color:#fff;
+	font-size:13px;
+	overflow:auto;
+	
+	// margin-top:0px;
+	// margin-bottom:25px;
+	// list-style:outside;
+}
+.sidebar li:first-child{
+	margin-top:0px;
+}
+.sidebar li h3{
+	font-size:16px;
+	margin:0px;
+	padding:10px 20px;
+	background:#000000;
+	color:#fff;
+} 
+.sidebar li h3 a:hover{
+	text-decoration:none;
+}
+.sidebar li a{
+	color:#fff;
+}
+
+/********** WIDGET GENERAL **********/
+
+.sidebar li ul{
+	margin:10px 0px;
+	padding:0px;
+}
+.sidebar li ul li{
+	list-style:none;
+	padding:5px 20px;	
+	margin:2px 0px;
+	
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+}
+.sidebar li ul li ul, .sidebar li ul li ul.children{
+	margin:5px 0px 0px 10px;
+}
+.sidebar li ul li a{
+	display:block;
+	padding:2px 10px;
+	
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	khtml-border-radius:2px;
+	border-radius:2px;
+}
+.sidebar li form{
+	margin:0px;
+}
+
+/********** WIDGET BUSCADOR **********/
+
+.sidebar li.widget_search{
+	
+}
+.sidebar li.widget_search .screen-reader-text{
+	display:none;
+}
+.sidebar li.widget_search form{
+	margin:20px;
+	display:block;
+}
+.sidebar li.widget_search #s{
+	width: 100%;
+	width:calc(100% - 20px);
+	margin-bottom:10px;
+	background:#fff;
+}
+.sidebar li.widget_search #searchsubmit{
+	width:100%;
+	background:#fff;
+	color:#666;
+}
+.sidebar li.widget_search #searchsubmit:hover{
+	background:#f0f0f0;
+	color:#666;
+}
+
+/********** WIDGET CATEGRIAS **********/
+
+.sidebar li.widget_categories{}
+
+/********** WIDGET COMENTARIOS RECIENTES **********/
+
+.sidebar li.widget_recent_comments{}
+.sidebar li.widget_recent_comments a{
+	background:transparent;
+	padding:0px;
+}
+
+/********** WIDGET ENLACES **********/
+
+.sidebar li.widget_links{}
+
+/********** WIDGET ARTICULOS RECIENTES **********/
+
+.sidebar li.widget_recent_entries{}
+
+/********** WIDGET META MENU **********/
+
+.sidebar li.widget_meta{}
+
+/********** WIDGET ETIQUETAS **********/
+
+.sidebar li.widget_tag_cloud{}
+.sidebar li.widget_tag_cloud .tagcloud{
+	padding:10px;
+}
+
+/********** WIDGET PAGINAS **********/
+
+.sidebar li.widget_pages{}
+
+/********** WIDGET TEXTO **********/
+
+.sidebar li.widget_text{}
+.sidebar li.widget_text .textwidget{
+	line-height:150%;
+}
+
+/********** WIDGET RSS **********/
+
+.sidebar li .textwidget{
+	margin:10px;
+}
+.sidebar li.widget_rss{}
+.sidebar li.widget_rss ul li{
+	list-style:none;
+	margin-top:20px;
+	background:#f0f0f0;
+}
+.sidebar li.widget_rss ul li a{
+	font-weight:500;
+	line-height:150%;
+	padding:10px 10px 0px;
+}
+.sidebar li.widget_rss .rsswidget{
+	
+}
+.sidebar li.widget_rss h3 .rsswidget{
+	font-size:inerith;
+}
+.sidebar li.widget_rss h3 .rss-widget-icon{
+	display:none;
+}
+.sidebar li.widget_rss .rss-date{
+	color: #666;
+    font-size: 12px;
+     padding:0px 10px 10px;
+}
+.sidebar li.widget_rss .rssSummary{
+	font-size: 12px;
+    line-height: 150%;
+    margin:0;
+    padding:0px 10px 10px;
+}
+.sidebar li.widget_rss cite{
+	font-style:normal;
+	color:#A0A0A0;
+}
+
+/********** WIDGET CALENDARIO **********/
+
+.sidebar li.widget_calendar{
+	padding:0px;
+	
+}
+.sidebar li.widget_calendar caption{
+	padding:10px 20px;
+	background:#000;
+	color:#fff;
+	font-size: 14px;
+}
+.sidebar li.widget_calendar table{
+	width:100%;
+	font-size:11px;
+	border: none;
+	border-collapse:collapse;
+}
+.sidebar li.widget_calendar table thead{
+	background:#000;
+}
+.sidebar li.widget_calendar table thead tr{
+}
+.sidebar li.widget_calendar table thead tr th {
+	padding:6px 5px;
+	text-align:center;
+}
+.sidebar li.widget_calendar table tfoot{
+	background:#000;
+}
+.sidebar li.widget_calendar table thead, .sidebar li.widget_calendar table tfoot{
+}
+.sidebar li.widget_calendar table tfoot tr{
+}
+.sidebar li.widget_calendar table tfoot tr td{
+	padding:6px 5px;
+}
+.sidebar li.widget_calendar table tbody{
+
+}
+.sidebar li.widget_calendar table tbody tr{
+}
+.sidebar li.widget_calendar table tbody tr td{
+	width:14%;
+	text-align:center;
+	padding:6px 5px;
+}
+@media all and (max-width: 782px){
+}
+@media all and (max-width: 600px){
+}

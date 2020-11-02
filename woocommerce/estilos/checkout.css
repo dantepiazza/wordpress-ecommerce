@@ -1,0 +1,297 @@
+ .woocommerce form.checkout_coupon{
+    border: 2px solid #eee;
+    background: #fff;
+}
+
+.wc-checkout .woocommerce-billing-fields,
+.wc-checkout .woocommerce-shipping-fields,
+.wc-checkout .woocommerce-additional-fields{
+	background: #fff;
+	padding: 30px;
+}
+.wc-checkout .woocommerce-shipping-fields{
+	margin-bottom: 20px;
+}
+
+.wc-checkout .woocommerce-billing-fields h3,
+.wc-checkout .woocommerce-shipping-fields h3,
+.wc-checkout .woocommerce-additional-fields h3{
+    font-size: 16px;
+	margin:0px;
+}
+.wc-checkout .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper,
+.wc-checkout .woocommerce-shipping-fields .shipping_address,
+.wc-checkout .woocommerce-additional-fields .woocommerce-additional-fields__field-wrapper{
+	margin-top:20px;
+}
+.wc-checkout .order_review_heading{
+	font-size:16px;
+}	
+.woocommerce table.shop_table,
+.wc-checkout .woocommerce-checkout-review-order-table{
+	border-radius:none !important;
+	border:none !important;
+	border-bottom: 1px solid #e2e2e2 !important;
+	margin: 0 -1px 0px 0;
+}
+.wc-checkout .woocommerce-checkout-review-order-table tbody tr td{
+	padding:10px 12px !important;
+	border:none !important;
+}
+.wc-checkout .woocommerce-checkout-review-order-table thead,
+.wc-checkout .woocommerce-checkout-review-order-table tfoot{
+	background:#fff !important;
+	color:#666 !important;
+}
+
+.wc-checkout .woocommerce-checkout-review-order-table tfoot tr th,
+.wc-checkout .woocommerce-checkout-review-order-table tfoot tr td{
+	border:none !important;
+}
+.wc-checkout .woocommerce-checkout-payment{
+	border-radius:none !important;
+	background:#fff !important;
+	color:#666 !important;
+}
+
+.select2-container--default .select2-selection--single{
+	border:1px solid #eee;
+	padding: 13px;
+    height: auto;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	padding: 0px 40px 0px 0px;
+	line-height: normal;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px;
+    width: 40px;
+}
+.select2-container--open .select2-dropdown--below,
+.select2-container--open .select2-dropdown--above{
+    border: none;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected], 
+.select2-container--default .select2-results__option--highlighted[data-selected] {
+    background-color: #00CCCC !important;
+    color: #fff;
+}
+#add_payment_method #payment ul.payment_methods, 
+.woocommerce-cart #payment ul.payment_methods, 
+.woocommerce-checkout #payment ul.payment_methods{
+	border-bottom: 1px solid #e2e2e2 !important;
+}
+
+
+/*############ CHECKOUT THANKYOU ############*/
+
+
+.wc-pedido .wc-pedido-recibido,
+.wc-pedido .wc-pedido-fallado{
+	padding:80px 20px;
+	overflow: auto;
+	text-align:center;
+}
+.wc-pedido .wc-pedido-recibido i,
+.wc-pedido .wc-pedido-fallado i{
+	color:#BBBBBB;
+    font-size:200px;
+    margin:0px 0px 20px;
+}
+.wc-pedido .wc-pedido-recibido i{
+	color:#A5DC86;
+}
+.wc-pedido .wc-pedido-fallado i{
+	color:#F27474;
+}
+.wc-pedido .wc-pedido-recibido h1,
+.wc-pedido .wc-pedido-fallado h1{
+	font-weight: 400;
+    margin:0px 0px 15px;
+}
+.wc-pedido .wc-pedido-recibido h5,
+.wc-pedido .wc-pedido-fallado h5{
+	font-size:16px;
+	font-weight:300;
+	margin:0px 0px 20px;
+}
+.wc-pedido .wc-pedido-recibido .wc-pedido-recibido-contenido,
+.wc-pedido .wc-pedido-fallado .wc-pedido-fallado-contenido{
+	max-width:500px;
+	margin:auto;
+}
+
+.wc-pedido .wc-pedido-general{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:start;
+	margin-bottom:30px;
+}
+.wc-pedido .wc-pedido-general .wc-pedido-datos,
+.wc-pedido .wc-pedido-general .wc-pedido-pago{
+	width:calc(50% - 15px);
+}
+.wc-pedido .wc-pedido-general .wc-pedido-datos .ui-box-content{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.wc-pedido .wc-pedido-general .wc-pedido-datos .fa{
+	float: left;
+    font-size: 120px;
+    color: #D6E6C4;
+}
+.wc-pedido .wc-pedido-general .wc-pedido-datos .detalles{
+	margin-left:20px;
+}
+.wc-pedido .wc-pedido-general .wc-pedido-datos .detalles p{
+	margin:0px;
+}
+.wc-pedido .wc-pedido-general .wc-pedido-pago{
+	
+}
+
+.woocommerce-bacs-bank-details h2{
+	font-size: 18px;
+}
+.woocommerce-bacs-bank-details h3{
+	font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+	margin:0px;
+	line-height:150%;
+}
+.woocommerce ul.order_details{
+	margin: 0px;
+}
+.woocommerce ul.order_details li{
+	float: none;
+    font-size: inherit;
+    text-transform: inherit;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+	line-height: 150%;
+}
+.woocommerce ul.order_details li strong{
+    display: initial;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wc-pedido .wc-pedido-detalles{
+	margin-bottom:30px;
+}
+.wc-pedido .wc-pedido-detalles table{
+	margin:0px !important;
+}
+.wc-pedido .wc-pedido-detalles tbody tr td{
+	padding:10px 12px !important;
+	border:none !important;
+}
+.wc-pedido .wc-pedido-detalles thead,
+.wc-pedido .wc-pedido-detalles tfoot{
+	background: transparent;
+    color: #666 !important;
+    text-transform: none;
+    font-weight: 400 !important;
+}
+.wc-pedido .wc-pedido-detalles tfoot{
+	background:#E0E0E0 !important;
+}
+.wc-pedido .wc-pedido-detalles tfoot tr th,
+.wc-pedido .wc-pedido-detalles tfoot tr td{
+	border:none !important;
+}
+
+.wc-pedido .wc-pedido-cliente{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:start;
+}
+.wc-pedido .wc-pedido-cliente .wc-pedido-cliente-con-envio{
+}
+.wc-pedido .wc-pedido-cliente .wc-pedido-cliente-general,
+.wc-pedido .wc-pedido-cliente .wc-pedido-cliente-facturacion{
+	width:calc(50% - 15px);
+}
+.wc-pedido .wc-pedido-cliente.wc-pedido-cliente-con-envio .wc-pedido-cliente-general,
+.wc-pedido .wc-pedido-cliente.wc-pedido-cliente-con-envio .wc-pedido-cliente-facturacion,
+.wc-pedido .wc-pedido-cliente.wc-pedido-cliente-con-envio .wc-pedido-cliente-envio{
+	width:calc(33% - 20px);
+}
+
+	
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 900px){
+	.wc-pedido .wc-pedido-general .wc-pedido-datos .fa{
+		display:none;
+	}
+	.wc-pedido .wc-pedido-general .wc-pedido-datos .detalles{
+		margin-left:0px;
+	}
+}
+
+@media all and (max-width: 768px){	
+	.wc-pedido .wc-pedido-cliente.wc-pedido-cliente-con-envio .wc-pedido-cliente-general,
+	.wc-pedido .wc-pedido-cliente.wc-pedido-cliente-con-envio .wc-pedido-cliente-facturacion,
+	.wc-pedido .wc-pedido-cliente.wc-pedido-cliente-con-envio .wc-pedido-cliente-envio{
+		width:100%;
+		margin-bottom:30px;
+	}
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 700px){	
+
+}
+
+@media all and (max-width: 600px){	
+	.wc-pedido .wc-pedido-general .wc-pedido-datos,
+	.wc-pedido .wc-pedido-general .wc-pedido-pago{
+		width:100%;
+		margin-bottom:30px;
+	}
+	.wc-pedido .wc-pedido-general .wc-pedido-datos .fa{
+		display:none;
+	}
+	
+	.wc-pedido .wc-pedido-cliente .wc-pedido-cliente-general,
+	.wc-pedido .wc-pedido-cliente .wc-pedido-cliente-facturacion,
+	.wc-pedido .wc-pedido-cliente .wc-pedido-cliente-envio{
+		width:100%;
+		margin-bottom:30px;
+	}
+}
+
+@media all and (max-width: 480px){
+	
+}

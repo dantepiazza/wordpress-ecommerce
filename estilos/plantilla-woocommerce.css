@@ -1,0 +1,52 @@
+.woocommerce{
+	
+}
+.woocommerce .woocommerce-encabezado{
+	background:#E0E0E0;
+	color:#000;
+	padding:40px 20px;
+}
+.woocommerce .woocommerce-encabezado h1{
+	color:#000000;
+	margin:0px 0px 10px;
+	line-height: 100%;
+	font-weight:black;
+	display:inline-block;
+	font-size:25px;
+}
+.woocommerce .woocommerce-encabezado .navegacion{
+	color:#999999;
+	font-size:12px;
+}
+.woocommerce .woocommerce-contenido{
+	
+}
+
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1280px){
+	
+}
+
+@media all and (max-width: 1024px){
+		
+}
+
+@media all and (max-width: 900px){
+	
+}
+
+@media all and (max-width: 768px){	
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+
+}
+
+@media all and (max-width: 480px){
+	
+}

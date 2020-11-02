@@ -1,0 +1,46 @@
+.ui-form{
+	background:#fff;
+	margin-bottom:20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+.ui-form .ui-form-header{
+	padding:30px 30px 0px;
+	width:100%;
+}
+.ui-form .ui-form-header h3{
+	font-size: 16px;
+    margin: 0px;
+}
+.ui-form .ui-form-content{
+	padding:30px;
+	width:100%;
+}
+.ui-form .ui-form-foterr{
+	padding:0px 30px 30px;
+	width:100%;
+}
+.ui-form .ui-form-row{
+	margin-top:20px;
+	width:100%;
+}
+.ui-form .ui-form-row:first-child{
+	margin-top:0px;
+}
+.ui-form .ui-form-row-multiple{
+	display:flex;
+	width:100%;
+}
+.ui-form .ui-form-row-multiple .ui-form-row{
+	margin:0px 0px 0px 20px;
+}
+.ui-form .ui-form-row-multiple .ui-form-row:first-child{
+	margin:0px;
+}
+.ui-form .ui-form-row label{
+	display:block;
+}
+.ui-form .ui-form-row .ui-input{
+	width:100%;
+}

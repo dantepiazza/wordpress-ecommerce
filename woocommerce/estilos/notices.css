@@ -1,0 +1,57 @@
+.woocommerce-error,
+.woocommerce-message,
+.woocommerce-info{
+	padding:13px 20px 13px 50px;
+	border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+	margin:0 0 20px;
+}
+.woocommerce-error{
+	border:1px solid #b81c23;
+	background:#F2A8AC;
+}
+ul.woocommerce-error{
+	margin:0 0 20px;
+	padding:13px 20px 13px 50px !important;
+}
+ul.woocommerce-error li{
+	margin: 2px 0px !important;
+}
+.woocommerce-message{
+	border:1px solid #8CB95B;
+	background:#D6E6C4;
+}
+.woocommerce-info{
+	border:1px solid #1F91C8;
+	background:#ACDCF2;
+}
+				
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 900px){
+	
+}
+
+@media all and (max-width: 768px){	
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 700px){	
+
+}
+
+@media all and (max-width: 600px){
+	
+}
+
+@media all and (max-width: 480px){
+	
+}

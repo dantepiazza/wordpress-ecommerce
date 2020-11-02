@@ -1,0 +1,122 @@
+.wc-products .wc-product{
+	list-style:none;
+	display:inline-block;	
+	
+	vertical-align:top;
+	background:#fff;
+}
+.wc-products .wc-product .product-image{
+	position:relative;
+	height:0px;
+	width:100%;
+	padding-bottom:100%;
+	background-color:#EFEFEF;
+	background-position:center;
+	background-size:cover;
+	
+	display: flex;
+    justify-content: center;
+    overflow: hidden
+}
+.wc-products .wc-product .product-image img{	
+    width: auto;
+    height: 100%
+}
+.wc-products .wc-product .product-image .onsale{
+	top:15px;
+    right: 15px;
+    position: absolute;
+    padding: 8px 10px;
+    background: var(--color-principal);
+    color: #fff;
+    font-size: 11px;
+    line-height: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.wc-products .wc-product .product-content{
+	padding:20px;
+	display:block;
+	text-align:center;
+	
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+}
+.wc-products .wc-product .product-content .product-content-container{
+	/*width:70%;*/
+	width:100%;
+}
+.wc-products .wc-product .product-content .product-description{
+	font-size:13px;
+	color:#444444;
+	margin-bottom:10px;
+}
+.wc-products .wc-product .product-content .product-title{
+	font-size:16px;
+	color:#333333;
+	margin:0px 0px 5px;
+	font-weight: 300;
+}
+.wc-products .wc-product .product-content .product-price{
+	font-size:16px;
+	color:#333333;
+	margin:0px;
+}
+.wc-products .wc-product .product-content .product-price del{
+	
+}
+.wc-products .wc-product .product-content .product-price ins{
+	text-decoration:none;
+}
+.wc-products .wc-product .product-content .product-price .woocommerce-Price-currencySymbol{
+	
+}
+.wc-products .wc-product .product-content .product-add-cart{
+	width:30%;
+	text-align: right;
+}
+.wc-products .wc-product .product-content .product-add-cart .add-cart{	
+    font-size: 18px;
+    color: #999;
+    padding: 11px 7px;
+    background: #fff;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+	
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wc-products .wc-product .product-content .product-add-cart .add-cart:hover{	
+    background: var(--color-principal);
+	color: #fff;
+}
+
+				
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 768px){	
+
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 700px){	
+
+}
+
+@media all and (max-width: 600px){
+
+}
+
+@media all and (max-width: 480px){
+	
+}

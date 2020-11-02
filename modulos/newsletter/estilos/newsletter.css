@@ -1,0 +1,23 @@
+.wrap h2 {
+    margin-bottom:15px;
+}
+a{
+	cursor:pointer;
+}
+#listado td{
+	height:24px;
+	padding:7px;
+}
+#listado td .botones{
+	display:none;
+}
+#listado td .loading{
+	display:none;
+	float:right;
+}
+#listado tr.pendiente{
+	background:#F0FEF0;
+}
+#listado tr.desuscripto{
+	background: #F0E8E8;
+}

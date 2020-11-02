@@ -1,0 +1,285 @@
+.wc-account .wc-account-navigation{
+	width:100%;
+	background:var(--color-principal);
+	overflow:auto;
+	border-top:2px solid var(--color-principal);
+	padding: 15px 0px 0px;
+}
+.wc-account .wc-account-navigation ul{
+	margin:0px;
+    padding:0px;
+	display:inline-block;
+	font-size:0;
+}
+.wc-account .wc-account-navigation ul li{
+	display:inline-block;
+	margin:0px;
+	font-size:13px;
+}
+.wc-account .wc-account-navigation ul li a{
+	display:block;
+	padding:15px 30px;
+	text-align:center;
+}
+.wc-account .wc-account-navigation ul li a:hover,
+.wc-account .wc-account-navigation ul li.is-active{
+	background:#f7f7f7;
+	color:#666666;
+}
+.wc-account .wc-account-navigation .wc-account-navigation-nav{
+	overflow:auto;
+	display:none;
+}
+.wc-account .wc-account-navigation .wc-account-navigation-nav .wc-account-navigation-button{
+	float:right;
+	padding:20px;
+	vertical-align:middle;
+}	
+.wc-account .wc-account-content{
+	padding:50px 20px;
+}
+.wc-account .wc-account-form{
+	background:#fff;
+	margin-bottom:20px;
+}
+.wc-account .wc-account-form .wc-account-edit-form-header{
+	padding:30px 30px 0px;
+}
+.wc-account .wc-account-form .wc-account-edit-form-header h3{
+	font-size: 16px;
+    margin: 0px;
+}
+.wc-account .wc-account-form .wc-account-edit-form-content{
+	padding:30px;
+	overflow:auto;
+}
+.wc-account .wc-account-form .wc-account-row{
+	margin-bottom:20px;
+}
+.wc-account .wc-account-form .wc-account-row .campo{
+	width:100%;
+}
+.wc-account .wc-account-form-content{
+	
+}
+.wc-account .wc-account-form-foot{
+	
+}
+
+
+
+/*################# ESCRITORIO #################*/
+
+.wc-account-dashboard{
+	
+}
+.wc-account-dashboard-categorias{
+	margin-top:50px;
+}
+.wc-account-dashboard-categorias h6{
+	margin-bottom:30px;
+}
+
+/*################# PEDIDOS #################*/
+
+.wc-account .wc-order-updates{
+}
+.wc-account .wc-order-updates ol{
+	margin:0px;
+	padding:0px;
+}
+.wc-account  .wc-order-update{
+	padding:15px;
+	background:#eee;
+	list-style:none;
+	margin: 0px 0px 5px;
+}
+.wc-account .wc-order-update p{
+	margin:0px;
+}
+.wc-account .wc-order-update p strong{
+	font-size:11px;
+}
+
+
+
+/*################# DESCARGAS #################*/
+/*################# DIRECCIONES #################*/
+
+.wc-account .wc-account-address{
+}
+.wc-account .wc-account-address .wc-account-address-welcome{
+	margin-bottom:20px;
+}
+.wc-account .wc-account-address-edit{
+	overflow:auto;
+}
+.wc-account .wc-account-address-edit .wc-account-address-edit-content{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.wc-account .wc-account-address-edit .wc-account-address-edit-content .ui-form,
+.wc-account .wc-account-address-edit .wc-account-address-edit-content .ui-actions{
+	width:55%;
+}
+
+@media all and (max-width: 900px){
+	.wc-account .wc-account-address-edit .wc-account-address-edit-content .ui-form,
+	.wc-account .wc-account-address-edit .wc-account-address-edit-content .ui-actions{
+		width:80%;
+	}
+}
+
+@media all and (max-width: 600px){
+	.wc-account .wc-account-address-edit .wc-account-address-edit-content .ui-form,
+	.wc-account .wc-account-address-edit .wc-account-address-edit-content .ui-actions{
+		width:100%;
+	}
+}
+
+
+
+
+/*################# METODOS DE PAGO #################*/
+/*################# DETALLES DE LA CUENTA #################*/
+
+.wc-account .wc-account-edit{
+	overflow:auto;
+}
+.wc-account .wc-account-edit .wc-account-edit-content{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.wc-account .wc-account-edit .wc-account-edit-content .ui-form{
+	width:calc(50% - 15px);
+}
+
+@media all and (max-width: 900px){
+	.wc-account .wc-account-edit .wc-account-edit-content{
+		justify-content:center;
+	}
+	.wc-account .wc-account-edit .wc-account-edit-content .ui-form,
+	.wc-account .wc-account-edit .wc-account-edit-content .ui-actions{
+		width:80%;
+	}
+}
+
+@media all and (max-width: 600px){
+	.wc-account .wc-account-edit .wc-account-edit-content .ui-form,
+	.wc-account .wc-account-edit .wc-account-edit-content .ui-actions{
+		width:100%;
+	}
+}
+
+
+.wc-login{
+	max-width:350px;
+	margin:0px auto;
+	padding:100px 20px;
+	overflow:auto;
+}
+.wc-login h5{
+	font-weight:400;
+}
+.wc-login p,
+.wc-login .campo{
+	margin-bottom:20px;
+}
+.wc-login .campo,
+.wc-login .boton{
+	width:100%;
+}
+.wc-login .wc-login-login{
+	width:100%;
+}
+.wc-login.wc-login-full{
+	max-width:800px;
+}
+.wc-login.wc-login-full .wc-login-login,
+.wc-login.wc-login-full .wc-login-register{
+	padding:30px;
+	border:2px solid #eee;
+	width:calc(50% - 80px);
+	float:left;
+}
+.wc-login.wc-login-full .wc-login-register{
+	margin-left:30px;
+	float:right;
+}
+
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	.wc-account .wc-account-navigation ul li a{
+		padding:15px 15px;
+	}
+	.wc-account .wc-account-edit .wc-account-edit-form{
+		width:calc(100% - 4px);
+		float:none;
+	}
+}
+
+@media all and (max-width: 850px){
+	.wc-account .wc-account-navigation{
+		padding: 0px;
+	}
+	.wc-account .wc-account-navigation ul{
+		display:none;
+		padding:0px;
+		background:var(--color-principal);
+		overflow:auto;
+	}
+	.wc-account .wc-account-navigation ul li{
+		margin-bottom:10px;
+		width:100%;
+	}
+	.wc-account .wc-account-navigation ul li a{
+		padding:10px 20px;
+	}
+	.wc-account .wc-account-navigation .wc-account-navigation-nav{
+		display:block;
+	}
+	
+	.wc-account .wc-account-edit .wc-account-form,
+	.wc-account .wc-account-edit .wc-account-edit-form-foot{
+		width:80%;
+	}
+}
+
+@media all and (max-width: 768px){	
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 700px){	
+
+}
+
+@media all and (max-width: 600px){
+	.wc-account .wc-account-navigation ul li{
+		width:100%;
+		display:block;
+		float:none;
+	}
+	
+	.wc-account .wc-account-edit .wc-account-form,
+	.wc-account .wc-account-edit .wc-account-edit-form-foot{
+		width:100%;
+	}
+	
+	.wc-account .wc-account-edit .wc-account-row-nombre,
+	.wc-account .wc-account-edit .wc-account-row-clave-nueva,
+	.wc-account .wc-account-edit .wc-account-row-apellido,
+	.wc-account .wc-account-edit .wc-account-row-clave-confirmar{
+		width:100%;
+		float:none;
+	}
+}
+
+@media all and (max-width: 480px){
+	
+}

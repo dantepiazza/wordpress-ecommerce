@@ -1,0 +1,462 @@
+.ui-notify-icon{
+	width: 80px;
+	height: 80px;
+	border: 4px solid gray;
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	border-radius: 50%;
+	margin: 20px auto;
+	padding: 0;
+	position: relative;
+	box-sizing: content-box;
+}
+.ui-notify-icon.ui-notify-info{
+	border-color: #C9DAE1;
+}
+.ui-notify-icon.ui-notify-info::before{
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 29px;
+	left: 50%;
+	bottom: 17px;
+	border-radius: 2px;
+	margin-left: -2px;
+	background-color: #C9DAE1;
+}
+.ui-notify-icon.ui-notify-info::after{
+	content: "";
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	margin-left: -3px;
+	top: 19px;
+	left: 50%;
+	background-color: #C9DAE1;
+}
+
+.ui-notify-icon.ui-notify-warning{
+	border-color: #F8BB86;
+}
+.ui-notify-icon.ui-notify-warning::before{
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 29px;
+	border-radius: 2px;
+	margin-left: -2px;
+	top: 19px;
+	left: 50%;
+	background-color: #F8BB86;
+}
+.ui-notify-icon.ui-notify-warning::after{
+	content: "";
+	position: absolute;
+	width: 7px;
+	height: 7px;
+	left: 50%;
+	bottom: 17px;
+	border-radius: 50%;
+	margin-left: -3px;
+	background-color: #F8BB86;
+}
+
+.ui-notify-icon.ui-notify-error{
+	border-color: #F27474;
+	
+	-webkit-animation: ui-notify-error-animation 0.5s;
+	animation: ui-notify-error-animation 0.5s;
+}
+.ui-notify-icon.ui-notify-error .ui-notify-error-cross{
+	position: relative;
+	display: block;
+	-webkit-animation: ui-notify-error-cross-animation 0.5s;
+	animation: ui-notify-error-cross-animation 0.5s;
+}
+.ui-notify-icon.ui-notify-error .ui-notify-line{
+	position: absolute;
+	height: 5px;
+	width: 47px;
+	background-color: #F27474;
+	display: block;
+	top: 37px;
+	border-radius: 2px;
+}
+.ui-notify-icon.ui-notify-error .ui-notify-line.ui-notify-left{
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	left: 17px;
+}
+.ui-notify-icon.ui-notify-error .ui-notify-line.ui-notify-right{
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	right: 16px;
+}
+
+@-webkit-keyframes ui-notify-error-animation{
+	0%{
+		transform: rotateX(100deg);
+		-webkit-transform: rotateX(100deg);
+		opacity: 0;
+	}
+	100%{
+		transform: rotateX(0deg);
+		-webkit-transform: rotateX(0deg);
+		opacity: 1;
+	}
+}
+
+@keyframes ui-notify-error-animation{
+	0%{
+		transform: rotateX(100deg);
+		-webkit-transform: rotateX(100deg);
+		opacity: 0;
+	}
+	100%{
+		transform: rotateX(0deg);
+		-webkit-transform: rotateX(0deg);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes ui-notify-error-cross-animation{
+	0%{
+		transform: scale(0.4);
+		-webkit-transform: scale(0.4);
+		margin-top: 26px;
+		opacity: 0;
+	}
+	50%{
+		transform: scale(0.4);
+		-webkit-transform: scale(0.4);
+		margin-top: 26px;
+		opacity: 0;
+	}
+	80%{
+		transform: scale(1.15);
+		-webkit-transform: scale(1.15);
+		margin-top: -6px;
+	}
+	100%{
+		transform: scale(1);
+		-webkit-transform: scale(1);
+		margin-top: 0;
+		opacity: 1;
+	} 
+}
+
+@keyframes ui-notify-error-cross-animation{
+	0%{
+		transform: scale(0.4);
+		-webkit-transform: scale(0.4);
+		margin-top: 26px;
+		opacity: 0;
+	}
+	50%{
+		transform: scale(0.4);
+		-webkit-transform: scale(0.4);
+		margin-top: 26px;
+		opacity: 0;
+	}
+	80%{
+		transform: scale(1.15);
+		-webkit-transform: scale(1.15);
+		margin-top: -6px;
+	}
+	100%{
+		transform: scale(1);
+		-webkit-transform: scale(1);
+		margin-top: 0;
+		opacity: 1;
+	}
+}
+
+.ui-notify-icon.ui-notify-success{
+	border-color: #A5DC86;
+}
+.ui-notify-icon.ui-notify-success::before, 
+.ui-notify-icon.ui-notify-success::after{
+	content: '';
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	border-radius: 50%;
+	position: absolute;
+	width: 60px;
+	height: 120px;
+	background: white;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.ui-notify-icon.ui-notify-success::before{
+	-webkit-border-radius: 120px 0 0 120px;
+	border-radius: 120px 0 0 120px;
+	top: -7px;
+	left: -33px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 60px 60px;
+	transform-origin: 60px 60px;
+}
+.ui-notify-icon.ui-notify-success::after{
+	-webkit-border-radius: 0 120px 120px 0;
+	border-radius: 0 120px 120px 0;
+	top: -11px;
+	left: 30px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-transform-origin: 0px 60px;
+	transform-origin: 0px 60px;
+}
+.ui-notify-icon.ui-notify-success .ui-notify-placeholder{
+	width: 80px;
+	height: 80px;
+	border: 4px solid rgba(165, 220, 134, 0.2);
+	-webkit-border-radius: 40px;
+	border-radius: 40px;
+	border-radius: 50%;
+	box-sizing: content-box;
+	position: absolute;
+	left: -4px;
+	top: -4px;
+	z-index: 2;
+}
+.ui-notify-icon.ui-notify-success .ui-notify-fix{
+	width: 5px;
+	height: 90px;
+	background-color: white;
+	position: absolute;
+	left: 28px;
+	top: 8px;
+	z-index: 1;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.ui-notify-icon.ui-notify-success .ui-notify-line{
+	height: 5px;
+	background-color: #A5DC86;
+	display: block;
+	border-radius: 2px;
+	position: absolute;
+	z-index: 2;
+}
+.ui-notify-icon.ui-notify-success .ui-notify-line.ui-notify-tip{
+	width: 25px;
+	left: 14px;
+	top: 46px;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.ui-notify-icon.ui-notify-success .ui-notify-line.ui-notify-long{
+	width: 47px;
+	right: 8px;
+	top: 38px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+
+@-webkit-keyframes animateSuccessTip{
+	0%{
+		width: 0;
+		left: 1px;
+		top: 19px;
+	}
+	54%{
+		width: 0;
+		left: 1px;
+		top: 19px;
+	}
+	70%{
+		width: 50px;
+		left: -8px;
+		top: 37px;
+	}
+	84%{
+		width: 17px;
+		left: 21px;
+		top: 48px;
+	}
+	100%{
+		width: 25px;
+		left: 14px;
+		top: 45px;
+	}
+}
+
+@keyframes animateSuccessTip{
+	0%{
+		width: 0;
+		left: 1px;
+		top: 19px;
+	}
+	54%{
+		width: 0;
+		left: 1px;
+		top: 19px;
+	}
+	70%{
+		width: 50px;
+		left: -8px;
+		top: 37px;
+	}
+	84%{
+		width: 17px;
+		left: 21px;
+		top: 48px;
+	}
+	100%{
+		width: 25px;
+		left: 14px;
+		top: 45px;
+	}
+}
+
+@-webkit-keyframes animateSuccessLong{
+	0%{
+		width: 0;
+		right: 46px;
+		top: 54px;
+	}
+		65%{
+		width: 0;
+		right: 46px;
+		top: 54px;
+	}
+	84%{
+		width: 55px;
+		right: 0px;
+		top: 35px;
+	}
+	100%{
+		width: 47px;
+		right: 8px;
+		top: 38px;
+	}
+}
+
+@keyframes animateSuccessLong{
+	0%{
+		width: 0;
+		right: 46px;
+		top: 54px;
+	}
+	65%{
+		width: 0;
+		right: 46px;
+		top: 54px;
+	}
+	84%{
+		width: 55px;
+		right: 0px;
+		top: 35px;
+	}
+	100%{
+		width: 47px;
+		right: 8px;
+		top: 38px;
+	}
+}
+
+@-webkit-keyframes rotatePlaceholder{
+	0%{
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+	}
+	5%{
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+	}
+	12%{
+		transform: rotate(-405deg);
+		-webkit-transform: rotate(-405deg);
+	}
+	100%{
+		transform: rotate(-405deg);
+		-webkit-transform: rotate(-405deg);
+	}
+}
+
+@keyframes rotatePlaceholder{
+	0%{
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+	}
+	5%{
+		transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+	}
+	12%{
+		transform: rotate(-405deg);
+		-webkit-transform: rotate(-405deg);
+	}
+	100%{
+		transform: rotate(-405deg);
+		-webkit-transform: rotate(-405deg);
+	}
+}
+
+.animateSuccessTip{
+	-webkit-animation: animateSuccessTip 0.75s;
+	animation: animateSuccessTip 0.75s;
+}
+.animateSuccessLong{
+	-webkit-animation: animateSuccessLong 0.75s;
+	animation: animateSuccessLong 0.75s;
+}
+.ui-notify-icon.ui-notify-success.animate::after{
+	-webkit-animation: rotatePlaceholder 4.25s ease-in;
+	animation: rotatePlaceholder 4.25s ease-in;
+}
+
+
+
+
+
+
+
+
+
+.ui-notify-icon.ui-notify-error .ui-notify-line.ui-notify-left{
+	-ms-transform: rotate(45deg) \9;
+}
+.ui-notify-icon.ui-notify-error .ui-notify-line.ui-notify-right{
+	-ms-transform: rotate(-45deg) \9;
+}
+
+
+.ui-notify-icon.ui-notify-success{
+	border-color: transparent\9;
+}
+.ui-notify-icon.ui-notify-success .ui-notify-line.ui-notify-tip{
+	-ms-transform: rotate(45deg) \9;
+}
+.ui-notify-icon.ui-notify-success .ui-notify-line.ui-notify-long{
+	-ms-transform: rotate(-45deg) \9;
+}
+
+
+
+/*
+
+<div class="ui-notify-icon ui-notify-error">
+	<span class="ui-notify-error-cross">
+		<span class="ui-notify-line ui-notify-left"></span>
+		<span class="ui-notify-line ui-notify-right"></span>
+	</span>
+</div>
+
+<div class="ui-notify-icon ui-notify-warning"></div>
+	
+<div class="ui-notify-icon ui-notify-info"></div>
+	
+<div class="ui-notify-icon ui-notify-success animate">
+	<span class="ui-notify-line ui-notify-tip animateSuccessTip"></span>
+	<span class="ui-notify-line ui-notify-long animateSuccessLong"></span>
+
+	<div class="ui-notify-placeholder"></div>
+	<div class="ui-notify-fix"></div>
+</div>
+
+*/

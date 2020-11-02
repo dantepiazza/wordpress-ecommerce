@@ -1,0 +1,103 @@
+.widget-categorias{
+	
+}
+.widget-categorias .contenedor{
+	overflow:visible;
+}
+.widget-categorias .widget-categorias-contenedor{
+	display:flex;
+	flex-wrap:wrap;
+}
+.widget-categorias .widget-categorias-contenedor .categoria{
+	width:14.28%;
+	padding:40px 20px;
+	text-align: center;
+	border-color:#E6E6E6;
+	border-style:solid;
+	background:#fff;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+		
+	border-right-width:1px;
+	border-bottom-width:1px;
+}
+.widget-categorias .widget-categorias-contenedor .categoria:hover{
+	background:#FcFcFc;
+}
+.widget-categorias .widget-categorias-contenedor .categoria:nth-child(7n){
+	border-right-width:0px;
+}
+.widget-categorias .widget-categorias-contenedor .categoria i{
+	width: 65px;
+    height: 65px;
+    overflow: hidden;
+    display: block;
+    margin: 0px auto 20px;
+}
+.widget-categorias .widget-categorias-contenedor .categoria i img{
+	width:100%;
+	height:auto;
+}
+
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 900px){
+	.widget-categorias .widget-categorias-contenedor .categoria{
+		width:20%;
+		border-right-width:1px;
+		border-bottom-width:1px;
+	}
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(7n){
+		border-right-width:1px;
+	}
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(5n){
+		border-right-width:0px;
+	}
+}
+
+@media all and (max-width: 768px){	
+	.widget-categorias .widget-categorias-contenedor .categoria{
+		width:25%;
+	}
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(7n),
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(5n){
+		border-right-width:1px;
+	}
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(4n){
+		border-right-width:0px;
+	}
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	.widget-categorias .widget-categorias-contenedor .categoria{
+		width:33.33%;
+	}
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(7n),
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(5n),
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(4n){
+		border-right-width:1px;
+	}
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(3n){
+		border-right-width:0px;
+	}
+}
+
+@media all and (max-width: 480px){
+	.widget-categorias .widget-categorias-contenedor .categoria{
+		width:50%;
+	}
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(7n),
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(5n),
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(4n),
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(3n){
+		border-right-width:1px;
+	}
+	.widget-categorias .widget-categorias-contenedor .categoria:nth-child(2n){
+		border-right-width:0px;
+	}
+}

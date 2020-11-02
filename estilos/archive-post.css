@@ -1,0 +1,104 @@
+.articulos .articulos-listado .articulo{
+	width:calc(25% - 15px);
+	margin:20px 0px 0px 20px;
+	background:#fff;
+}
+.articulos .articulos-listado .articulo:nth-child(4n+1){
+	margin-left:0px;
+}
+.articulos .articulos-listado .articulo .articulo-imagen{
+	width:100%;
+	height:200px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	display:block;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor{
+	padding:15px;
+	overflow:auto;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-contenido{
+	text-align:left;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-contenido h1{
+	font-size:16px;
+	text-transform:none;
+	margin:0px 0px 10px;
+	text-align:left;
+	font-weight:500;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-contenido h1 a{
+	color:#000000;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-contenido h1 a:hover{
+	color:#333333;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-contenido p{
+	font-size:13px;
+	line-height:180%;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-info{
+	margin-bottom:15px;
+	font-size:12px;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-info a{
+	color:#666;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-info a:hover{
+	color:#000000;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-info i{
+	margin:0px 10px 0px 20px;
+	font-size:18px;
+	vertical-align:middle;
+}
+.articulos .articulos-listado .articulo .articulo-contenedor .articulo-info i:first-child{
+	margin-left:0px;
+}
+
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	.articulos .articulos-listado .articulo{
+		width:calc(33.33% - 14px);
+	}
+	.articulos .articulos-listado .articulo:nth-child(4n+1){
+		margin-left:20px;
+	}
+	.articulos .articulos-listado .articulo:nth-child(3n+1){
+		margin-left:0px;
+	}
+}
+
+@media all and (max-width: 768px){	
+	
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	.articulos .articulos-listado .articulo{
+		width:calc(50% - 10px);
+	}
+	.articulos .articulos-listado .articulo:nth-child(4n+1),
+	.articulos .articulos-listado .articulo:nth-child(3n+1){
+		margin-left:20px;
+	}
+	.articulos .articulos-listado .articulo:nth-child(2n+1){
+		margin-left:0px;
+	}
+}
+
+@media all and (max-width: 480px){
+	.articulos .articulos-listado .articulo{
+		width:100%;
+		margin-left:0px;
+	}
+	.articulos .articulos-listado .articulo:nth-child(4n+1),
+	.articulos .articulos-listado .articulo:nth-child(3n+1),
+	.articulos .articulos-listado .articulo:nth-child(2n+1){
+		margin-left:0px;
+	}
+}

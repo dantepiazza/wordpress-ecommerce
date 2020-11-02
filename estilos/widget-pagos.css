@@ -1,0 +1,50 @@
+.widget-pagos{
+	background:url(../imagenes/widget-pagos-fondo.jpg) top center no-repeat #F5F6F8;
+	padding:80px 20px;
+	text-align:center;
+	color:#666666;
+}
+.widget-pagos .widget-pagos-contenedor{
+	max-width:500px;
+	margin:0px auto 50px;
+}
+.widget-pagos .widget-pagos-contenedor .titulado{
+	margin-bottom:20px;
+}
+.widget-pagos .widget-pagos-logos{
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.widget-pagos .widget-pagos-logos img{
+	height:100%;
+}
+
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	.widget-pagos .widget-pagos-logos{
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media all and (max-width: 768px){	
+
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 600px){
+	
+}
+
+@media all and (max-width: 480px){
+	
+}
+
+@media all and (max-width: 360px){
+	
+}

@@ -1,0 +1,13 @@
+/*
+	Theme Name: Clousis - Ecommerce
+	Description: El tema cuenta con plantillas para reflejar secciones independientes y funcionabilidades adaptadas a E-Commerce.
+	Author: Clousis - Aplicaciones móviles y desarrollos online
+	Author URI: http://www.clousis.com
+	Version: 1.0
+*/
+
+@import "estilos/estructura-reset.css";
+@import "estilos/estructura-general.css";
+@import "estilos/estructura-contenido.css";
+@import "estilos/header.css";
+@import "estilos/footer.css";

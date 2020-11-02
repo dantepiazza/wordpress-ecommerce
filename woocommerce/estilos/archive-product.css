@@ -1,0 +1,125 @@
+.wc-shop{
+
+}
+.wc-shop .wc-shop-encabezado{
+	
+}
+.wc-shop .wc-shop-encabezado h1{
+	
+}
+.wc-shop .wc-shop-encabezado .navegacion{
+	font-size:12px;
+}
+.wc-shop .wc-shop-contenedor{
+	padding:80px 20px;
+}
+.wc-shop .wc-shop-list{
+	margin: 0px;
+}
+.wc-shop .wc-shop-list .wc-products-navegation{
+	overflow:auto;
+}
+.wc-shop .wc-shop-list .wc-products-navegation .wc-products-results{
+	float:left;
+	margin: 10px 0px;
+}
+.wc-shop .wc-shop-list .wc-products-navegation .wc-products-order{
+	float:right;
+}
+.wc-shop .wc-shop-list .wc-products{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:flex-start;
+}
+.wc-shop .wc-shop-list .wc-products .wc-product{
+	width:calc(25% - 15px);
+	margin:20px 0px 0px 20px;
+}
+.wc-shop .wc-shop-list .wc-products .wc-product:nth-child(4n+1){
+	margin-left:0px;
+}
+
+
+
+.wc-shop .wc-shop-list .wc-pagination{
+	clear:both;
+	text-align:center;
+	margin-top:30px;
+}
+.wc-shop .wc-shop-list .wc-pagination .page-numbers{
+	color:#999999;
+	padding:12px 18px;
+	border:2px solid #eee;
+	display:inline-block;
+	background:#fff;
+	margin:0px 2px;
+}
+.wc-shop .wc-shop-list .wc-pagination a:hover.page-numbers,
+.wc-shop .wc-shop-list .wc-pagination .page-numbers.current{
+	border:2px solid #1F91C8;
+	background:#1F91C8;
+	color:#fff;
+}
+
+
+.wc-shop .wc-sidebar{
+	
+}
+
+				
+
+/*################# TABLETS #################*/
+
+@media all and (max-width: 1024px){
+	
+}
+
+@media all and (max-width: 900px){	
+	.wc-shop .wc-shop-list{
+		float: none;
+		width: 100%;
+		margin-bottom:20px;
+	}
+	.wc-shop .wc-shop-list .wc-products .wc-product{
+		width:calc(50% - 22px);
+	}
+	.wc-shop .wc-shop-list .wc-products .wc-product:nth-child(3n+1){
+		margin-left:20px;
+	}
+	.wc-shop .wc-shop-list .wc-products .wc-product:nth-child(2n+1){
+		margin-left:0px;
+	}	
+	.wc-shop .wc-sidebar{
+		width:100%;
+		float:none;
+	}
+}
+
+/*################# MOVILES #################*/
+
+@media all and (max-width: 700px){	
+
+}
+
+@media all and (max-width: 600px){
+	.wc-shop .wc-shop-list .wc-products-navegation .wc-products-results,
+	.wc-shop .wc-shop-list .wc-products-navegation .wc-products-order{
+		float:none;
+		margin: 10px 0px;
+	}
+	.wc-shop .wc-shop-list .wc-products-navegation .wc-products-order select{
+		width:100%;
+	}
+	.wc-shop .wc-shop-list .wc-products .wc-product{
+		width:calc(100% - 4px);
+		margin-left:0px;
+	}
+	.wc-shop .wc-shop-list .wc-products .wc-product:nth-child(2n+1),
+	.wc-shop .wc-shop-list .wc-products .wc-product:nth-child(3n+1){
+		margin-left:0px;
+	}
+}
+
+@media all and (max-width: 480px){
+	
+}
